@@ -1,0 +1,70 @@
+body {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	background-color: #cd25a6;
+}
+header {
+	background-color: #282827;
+	color: #fff;
+	padding: 20px;
+	text-alin: center;
+}
+header h1 {
+	margin: 12px;
+}
+section {
+	background-color: #fff;
+	padding: 20px;
+	marin-bottom: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#employee-selection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#employee-select {
+	width: 100px;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#add-employee-button {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#add-empoloyee-button:hover {
+	background-color: #3e8e41;
+}
+#time-log-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#time-log-list li {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#time-log-list li:last-child {
+	border-bottom: none;
+}
+button{
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #3e8e41;
+}
+button:disabled {
+	background-color: #ccc;
+	cursor: not-allowed;
+}
